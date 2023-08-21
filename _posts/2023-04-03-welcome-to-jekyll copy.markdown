@@ -1,9 +1,12 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2023-04-03 22:27:37 +0100
+title:  "Farseer Review"
+date:   2023-08-21 10:15:00 +0100
 categories: jekyll update
 ---
+
+![image tooltip here](/assets/images/23-08-21-farseer-review/farseer-trilogy.jpeg)
+
 {% for tag in site.tags %}
   <h3>{{ tag[0] }}</h3>
   <ul>
@@ -12,13 +15,3 @@ categories: jekyll update
     {% endfor %}
   </ul>
 {% endfor %}
-
----
-excerpt_separator: <!--more-->
----
-
-Excerpt with multiple paragraphs
-
-Here's another paragraph in the excerpt.
-<!--more-->
-Out-of-excerpt
