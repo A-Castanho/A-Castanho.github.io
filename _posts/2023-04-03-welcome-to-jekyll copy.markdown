@@ -2,7 +2,7 @@
 layout: post
 title:  "Farseer Review"
 date:   2023-08-21 10:15:00 +0100
-categories: jekyll update
+categories: [jekyll update, test]
 ---
 
 ![image tooltip here](/assets/images/23-08-21-farseer-review/farseer-trilogy.jpeg)

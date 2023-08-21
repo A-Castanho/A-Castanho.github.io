@@ -4,6 +4,8 @@ title:  "Welcome to Jekyll!"
 date:   2023-04-03 22:27:37 +0100
 categories: jekyll update
 ---
+categories:
+
 {% for tag in site.tags %}
   <h3>{{ tag[0] }}</h3>
   <ul>
@@ -12,6 +14,8 @@ categories: jekyll update
     {% endfor %}
   </ul>
 {% endfor %}
+
+end categories
 
 ---
 excerpt_separator: <!--more-->
