@@ -4,8 +4,32 @@ title:  "RESOURCES"
 author: sal
 categories: [ Jekyll, tutorial ]
 image: assets/images/1.jpg
+
+description: "This is description" #no idea what it is for
+
+rating: 3 #to give a stars rating at the end. Pretty useless for me. Unless book reviews?
+
+beforetoc: "This is toc" #Toc is a small text after the image and before the content that's shown in italic
+toc: true #to show or hide toc
+
+featured: true #featured makes it well featured
+hidden: false #hidden hides it from all stories
 ---
 Use Jekyll serve to preview 
+`gem install bundler` installs the bundler gem through RubyGems. You only need to install it once - not every time you create a new Jekyll project. Here are some additional details:
+
+`bundler` is a gem that manages other Ruby gems. It makes sure your gems and gem versions are compatible, and that you have all necessary dependencies each gem requires.
+
+The `Gemfile` and `Gemfile.lock` files inform `Bundler` about the gem requirements in your site. If your site doesn’t have these Gemfiles, you can omit `bundle exec` and just `run jekyll serve`.
+
+When you run `bundle exec jekyll serve`, `Bundler` uses the gems and versions as specified in `Gemfile.lock` to ensure your Jekyll site builds with no compatibility or dependency conflicts.
+
+For more information about how to use `Bundler` in your Jekyll project, this tutorial should provide answers to the most common questions and explain how to get up and running quickly.
+
+////////////////////////////////////////////////
+
+
+
 
 
 There are lots of powerful things you can do with the Markdown editor. If you've gotten pretty comfortable with writing in Markdown, then you may enjoy some more advanced tips about the types of things you can do with Markdown!
