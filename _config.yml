@@ -3,7 +3,7 @@ title: PHOTORAMA
 email: ""
 description: "Photo Journal"
 url: "https://a-castanho.github.io"
-baseurl: "/a-castanho.github.io"
+baseurl: "/"
 facebook_username: ""
 twitter_username: ""
 instagram_username: ""
@@ -33,9 +33,9 @@ comments :
 
 # Internal nav
 nav:
-  - GALLERY: "https://a-castanho.github.io/a-castanho.github.io/gallery/"  
-  - JOURNAL: "https://a-castanho.github.io/a-castanho.github.io/journal/"
-  - ABOUT: "https://a-castanho.github.io/a-castanho.github.io/about/"
+  - GALLERY: "https://a-castanho.github.io/gallery/"  
+  - JOURNAL: "https://a-castanho.github.io/journal/"
+  - ABOUT: "https://a-castanho.github.io/about/"
 
 # All translation keys
 translations:
