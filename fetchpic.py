@@ -33,7 +33,7 @@ def update_index_html(html_path, image_list):
 
         # Update images section
         images_section = "\n".join([
-            f"- image_path: {image['image_path']}\n  caption: {image['caption']}\n  copyright: © photorama"
+            f"- image_path: {image['image_path']}\n  caption: {image['caption']}\n  copyright: © Alina Castanho"
             for image in image_list
         ])
         updated_yaml += f"\n{images_section}\n"
